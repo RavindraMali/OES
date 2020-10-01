@@ -167,8 +167,8 @@ img {
 /* Preloader */
 #preloader {
   background: #61ba6d;
-  background: -webkit-linear-gradient(to right, blue,black);
-  background: linear-gradient(to right, blue,black);
+  background: -webkit-linear-gradient(to right, blue,#212529);
+  background: linear-gradient(to right, blue,#212529);
   width: 100%;
   height: 100%;
   position: fixed;
@@ -255,8 +255,8 @@ img {
 /* ScrollUp */
 #scrollUp {
   background: #61ba6d;
-  background: -webkit-linear-gradient(to right, blue,black);
-  background: linear-gradient(to right,blue,black);
+  background: -webkit-linear-gradient(to right, blue,#212529);
+  background: linear-gradient(to right,blue,#212529);
   border-radius: 0;
   bottom: 60px;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
@@ -290,8 +290,8 @@ img {
   -webkit-transition: all 500ms;
   transition: all 500ms;
   background: #61ba6d;
-  background-image: -webkit-linear-gradient(left, black 0%, blue 51%, black 100%);
-  background-image: linear-gradient(to right, black 0%, blue 51%, black 100%);
+  background-image: -webkit-linear-gradient(left, black 0%, blue 51%, #212529 100%);
+  background-image: linear-gradient(to right, black 0%, blue 51%, #212529 100%);
   font-weight: 600; }
   .academy-btn.btn-sm {
     min-width: 110px;
@@ -303,8 +303,8 @@ img {
     font-weight: 600;
     color: #ffffff;
     background: #61ba6d;
-    background: -webkit-linear-gradient(to right, blue, black);
-    background: linear-gradient(to right, blue,black); }
+    background: -webkit-linear-gradient(to right, blue, #212529);
+    background: linear-gradient(to right, blue,#212529); }
   .academy-btn.btn-2 {
     background: #141414; }
     .academy-btn.btn-2:hover, .academy-btn.btn-2:focus {
@@ -384,9 +384,9 @@ img {
       .header-area .academy-main-menu .calling-info .call-center {
         position: relative;
         z-index: 1;
-        background: black;
-        background: -webkit-linear-gradient(to right, blue, black);
-        background: linear-gradient(to right, blue, black);
+        background:   #232323;
+        background: -webkit-linear-gradient(to right, blue, #212529);
+        background: linear-gradient(to right, blue, #212529);
         padding: 0 40px;
         line-height: 85px;
         height: 85px; }
@@ -444,7 +444,7 @@ img {
       top: 0;
       right: 0;
       z-index: 1;
-      background-color: black;
+      background-color: #212529;
       content: ''; }
 
 .hero-slides {
@@ -486,8 +486,8 @@ img {
   .hero-slides .owl-prev,
   .hero-slides .owl-next {
     background: #61ba6d;
-    background: -webkit-linear-gradient(to right, blue, black);
-    background: linear-gradient(to right, blue, black);
+    background: -webkit-linear-gradient(to right, blue, 	#212529);
+    background: linear-gradient(to right, blue, #212529);
     width: 56px;
     height: 56px;
     line-height: 56px;
@@ -535,8 +535,8 @@ img {
     position: relative;
     z-index: 50;
     background: #61ba6d;
-    background: -webkit-linear-gradient(to right, blue, black);
-    background: linear-gradient(to right, blue, black);
+    background: -webkit-linear-gradient(to right, blue, #212529);
+    background: linear-gradient(to right, blue, #212529);
     padding: 40px 15px;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%); }
@@ -584,8 +584,8 @@ img {
   min-width: 91px;
   width: 91px;
   background: #61ba6d;
-  background: -webkit-linear-gradient(to right,blue,black);
-  background: linear-gradient(to right,blue,black);
+  background: -webkit-linear-gradient(to right,blue,#212529);
+  background: linear-gradient(to right,blue,#212529);
   width: 91px;
   height: 91px;
   line-height: 95px;
@@ -789,8 +789,8 @@ img {
   position: relative;
   z-index: 1;
   background: #61ba6d;
-  background: -webkit-linear-gradient(to right,blue,black);
-  background: linear-gradient(to right,blue,black);
+  background: -webkit-linear-gradient(to right,blue,#212529);
+  background: linear-gradient(to right,blue,#212529);
   padding: 70px 0; }
   .call-to-action-area .cta-content h3 {
     font-size: 30px;
@@ -890,8 +890,8 @@ img {
     width: 500px;
     height: 110px;
     background: #61ba6d;
-    background: -webkit-linear-gradient(to right,blue,black);
-    background: linear-gradient(to right,blue,black);
+    background: -webkit-linear-gradient(to right,blue,#212529);
+    background: linear-gradient(to right,blue,#212529);
     position: absolute;
     bottom: -60px;
     -webkit-transform: translateX(-50%);
@@ -917,8 +917,8 @@ img {
   .about-slides .owl-prev,
   .about-slides .owl-next {
     background: #61ba6d;
-    background: -webkit-linear-gradient(to right,blue,black);
-    background: linear-gradient(to right,blue,black);
+    background: -webkit-linear-gradient(to right,blue,#212529);
+    background: linear-gradient(to right,blue,#212529);
     width: 56px;
     height: 56px;
     line-height: 56px;
@@ -1189,8 +1189,8 @@ img {
         filter: alpha(opacity=0); }
     .single-accordion h6 a.collapsed {
       background: #61ba6d;
-      background: -webkit-linear-gradient(to right,blue,black);
-      background: linear-gradient(to right,blue,black);
+      background: -webkit-linear-gradient(to right,blue,#212529);
+      background: linear-gradient(to right,blue,#212529);
       color: #ffffff; }
       .single-accordion h6 a.collapsed span.accor-close {
         opacity: 0;
@@ -1216,8 +1216,8 @@ img {
     margin-bottom: 50px; }
     .academy-tabs-content .nav-tabs .nav-link {
       background: #61ba6d;
-      background: -webkit-linear-gradient(to right,blue,black);
-      background: linear-gradient(to right,blue,black);
+      background: -webkit-linear-gradient(to right,blue,#212529);
+      background: linear-gradient(to right,blue,#212529);
       padding: 0 20px;
       height: 50px;
       line-height: 50px;

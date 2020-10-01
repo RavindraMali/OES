@@ -9,13 +9,34 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>..:: Contact Us | HighQ Classes ::..</title>
+    <title>..:: LogIn | HighQ Classes ::..</title>
 
     <!-- Favicon -->
     <link rel="icon" href="img/core-img/logo.jpeg">
 
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="style.css">
+    <style>
+
+        .bg-linear{
+            background:linear-gradient(to right,blue,#212529);
+        }
+        .shadow-radius{
+            box-shadow:5px 5px 1px 1px lightslategray;
+            border-radius:5px;
+        }
+        .img{height:80px;
+            width:130px;
+        }
+        .control-login{
+            border:1px solid lightgray;
+        }
+        .btn-submit{
+            box-shadow:2px 2px 1px 1px lightslategray;  
+            color:white;border-radius:px;
+            background:linear-gradient(to right,blue,#212529);
+        }
+    </style>
 
 </head>
 
@@ -23,7 +44,7 @@
    
     <!-- ##### Breadcumb Area Start ##### -->
     <!-- <div class="breadcumb-area bg-img" style="background-image: url(img/bg-img/breadcumb.jpg);"> -->
-        <div class="breadcumb-area bg-img" style="background:linear-gradient(to right,blue,black);">
+        <div class="breadcumb-area bg-img bg-linear" >
         <div class="bradcumbContent"  >
             <h2>Contact</h2>
         </div>
@@ -35,7 +56,7 @@
         <div class="container" style="margin-top:40px;"> 
             <div class="row">
                 <div class="col-12">
-                    <div class="contact-content" style="box-shadow:5px 5px 1px 1px lightslategray;border-radius:5px;">
+                    <div class="contact-content shadow-radius" >
                         <div class="row">
                             <div class="col-12 col-lg-3">  </div> 
                               
@@ -44,14 +65,15 @@
                                     
                                 <div  style="border-radius:5px;" class="contact-form-area wow fadeInUp" data-wow-delay="300ms">
                                     <form action="index.html" method="post" align="center">
-                                        <h2 style="color:blue;">LogIn</h2>
-                                        <input style="border-radius:5px;border:1px solid lightgray;" type="email" class="form-control" id="name" placeholder="Email Address">
+                                        <a href="index.html"><img class="shadow-radius img" src="img/core-img/logo.jpeg" alt="Logo"></a>
+                                        <h2>LogIn</h2>
+                                        <input type="email" class="form-control control-login" id="name" placeholder="Email Address">
                                         <span style="color:Red;">invalid email</span>
                                         <br/>
-                                        <input style="border-radius:5px;border:1px solid lightgray;" type="password" class="form-control" id="email" placeholder="Password">
+                                        <input  type="password" class="form-control control-login" id="email" placeholder="Password">
                                         <span style="color:Red;">invalid password</span>
                                         <br/>
-                                        <button class="btn p-3" style="color:white;border-radius:px;background:linear-gradient(to right,blue,black);" type="submit">Login</button>
+                                        <button class="btn btn-submit p-2"  type="submit">Login</button>
                                         <br/>
                                         <a style="text-decoration:none;" href="#forgetpassword.html">Forgot Password ?</a>
                                     </form>
